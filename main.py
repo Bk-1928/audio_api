@@ -100,8 +100,14 @@ def statistics(height,weight):
             for c in df.columns
         },
 
-        "correlation":[]
-
+        # "correlation":[]
+        "correlation":[
+            {
+                "x":"키",
+                "y":"몸무게",
+                "type":"positive"
+            }
+        ]
     }
 
 
