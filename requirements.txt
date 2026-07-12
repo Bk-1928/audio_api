@@ -4,6 +4,4 @@ numpy
 pandas
 scipy
 soundfile
-openai-whisper
-torch
 python-multipart
