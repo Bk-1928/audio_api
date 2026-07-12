@@ -80,7 +80,8 @@ def statistics(height,weight):
 
         "min":df.min().to_dict(),
 
-        "max":df.max().to_dict(),
+        # "max":df.max().to_dict(),
+        "max": {},
 
         "median":df.median().to_dict(),
 
